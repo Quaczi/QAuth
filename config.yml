@@ -1,0 +1,65 @@
+# QAuth by Quaczi
+# Config edit: 31.03.2017
+# Script edit: 31.03.2017
+# If you need help open this link:
+# github.com/wytlumaczenie
+
+# Do not change this values or your config will be deleted
+versions:
+  config: '1.0a'
+  script: '1.2b'
+#
+General:
+  locale: 'en'
+  MySQL: false
+
+MySQL:
+  user: 'srv1023'
+  password: 'N6zED6Ue'
+  host: 'mysql.titanaxe.com'
+  database: 'srv1023'
+#
+
+Sessions:
+  #If EndOnIPChange (EOIPC) is true session will end after logging from different IP
+  EOIPC: true
+  time: 3 days
+#
+
+AutoUpdate:
+  enabled: true
+  delay: 1 hour
+  onLoad: true
+  info: false
+  confirmation: false
+  
+#
+
+Login:
+  kick: false
+  hideEq: true
+  spawn: false
+#
+
+Register:
+  kick: false
+  maxPass: 5
+  maxIP: 3
+#
+
+Logs:
+  enabled: true
+  autoClear: 2 days
+  sessions: true
+  login: true
+  register: true
+  highPing: true
+  newIP: false
+  passwordAdd: true
+  ipAdd: true
+
+#
+#  Thank you for installing QAuth
+#
+  
+  
